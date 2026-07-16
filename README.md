@@ -35,6 +35,8 @@ npm run dev
 
 El proyecto usa Firestore para traer los productos y guardar las ordenes.
 
+Proyecto usado para las pruebas: `proyecto-final-wallace-2026`.
+
 Para configurarlo hay que crear un archivo `.env` en la raiz del proyecto con estos datos:
 
 ```env
@@ -47,6 +49,7 @@ VITE_FIREBASE_APP_ID=
 ```
 
 La coleccion de productos se llama `products` y la coleccion donde se guardan las compras se llama `orders`.
+Las reglas usadas estan en `firestore.rules`.
 
 Ejemplo de producto:
 
